@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Hurricane&family=Kanit:ital,wght@1,600&family=Poppins:ital,wght@0,400;0,800;1,200;1,300;1,600&family=Rubik:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,108 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.page {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 1000px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Dosis';
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+.undertitle {
+  height: 2px;
+  width: 300px;
+  background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dog-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.each-dog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: lightgray;
+  width: 90%;
+  max-width: 650px;
+  margin-bottom: 80px;
+}
+
+.each-dog img{
+  width: 60%;
+  max-height: 500px;
+}
+
+.each-dog h1{
+  font-family: 'Dosis';
+  font-size: 50px;
+  color: darkcyan;
+}
+
+.each-dog h2{
+  font-family: 'Poppins';
+  color: darkgoldenrod;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-family: 'Rubik';
+}
+
+.info h3 p {
+  margin: 2px;
+  font-family: 'Rubik';
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.info h3 {
+  font-family: 'Poppins';  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.intrest {
+  cursor: pointer;
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+  font-family: "Poppins";
+  font-weight: 700;
+  background-color: antiquewhite;
+}
+
+.refresh {
+  padding: 10px 20px;
+  width: 120px;
+  background-color: white;
+  color: lightskyblue;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid lightblue;
 }
